@@ -14,6 +14,13 @@
 		018BE6EA2A51B7420064F8B2 /* SwiftuiCustomComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BE6E92A51B7420064F8B2 /* SwiftuiCustomComponentsTests.swift */; };
 		018BE6F42A51B7420064F8B2 /* SwiftuiCustomComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BE6F32A51B7420064F8B2 /* SwiftuiCustomComponentsUITests.swift */; };
 		018BE6F62A51B7420064F8B2 /* SwiftuiCustomComponentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BE6F52A51B7420064F8B2 /* SwiftuiCustomComponentsUITestsLaunchTests.swift */; };
+		018BE7052A51B76B0064F8B2 /* CustomTabBar1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BE7042A51B76B0064F8B2 /* CustomTabBar1.swift */; };
+		018BE7082A51B8230064F8B2 /* CustomTabBar1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BE7072A51B8230064F8B2 /* CustomTabBar1View.swift */; };
+		018BE70A2A51B9090064F8B2 /* CustomTabBar1House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BE7092A51B9090064F8B2 /* CustomTabBar1House.swift */; };
+		018BE70C2A51B9270064F8B2 /* CustomTabBar1Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BE70B2A51B9270064F8B2 /* CustomTabBar1Message.swift */; };
+		018BE70E2A51B9480064F8B2 /* CustomTabBar1Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BE70D2A51B9480064F8B2 /* CustomTabBar1Person.swift */; };
+		018BE7102A51B95D0064F8B2 /* CustomTabBar1Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BE70F2A51B95D0064F8B2 /* CustomTabBar1Setting.swift */; };
+		018BE7122A51B9E50064F8B2 /* CustomTabBar1Leaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BE7112A51B9E50064F8B2 /* CustomTabBar1Leaf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		018BE6EF2A51B7420064F8B2 /* SwiftuiCustomComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftuiCustomComponentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		018BE6F32A51B7420064F8B2 /* SwiftuiCustomComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftuiCustomComponentsUITests.swift; sourceTree = "<group>"; };
 		018BE6F52A51B7420064F8B2 /* SwiftuiCustomComponentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftuiCustomComponentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		018BE7042A51B76B0064F8B2 /* CustomTabBar1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar1.swift; sourceTree = "<group>"; };
+		018BE7072A51B8230064F8B2 /* CustomTabBar1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar1View.swift; sourceTree = "<group>"; };
+		018BE7092A51B9090064F8B2 /* CustomTabBar1House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar1House.swift; sourceTree = "<group>"; };
+		018BE70B2A51B9270064F8B2 /* CustomTabBar1Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar1Message.swift; sourceTree = "<group>"; };
+		018BE70D2A51B9480064F8B2 /* CustomTabBar1Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar1Person.swift; sourceTree = "<group>"; };
+		018BE70F2A51B95D0064F8B2 /* CustomTabBar1Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar1Setting.swift; sourceTree = "<group>"; };
+		018BE7112A51B9E50064F8B2 /* CustomTabBar1Leaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar1Leaf.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +108,7 @@
 		018BE6D72A51B7400064F8B2 /* SwiftuiCustomComponents */ = {
 			isa = PBXGroup;
 			children = (
+				018BE7022A51B74D0064F8B2 /* Components */,
 				018BE6D82A51B7400064F8B2 /* SwiftuiCustomComponentsApp.swift */,
 				018BE6DA2A51B7400064F8B2 /* ContentView.swift */,
 				018BE6DC2A51B7420064F8B2 /* Assets.xcassets */,
@@ -125,6 +140,36 @@
 				018BE6F52A51B7420064F8B2 /* SwiftuiCustomComponentsUITestsLaunchTests.swift */,
 			);
 			path = SwiftuiCustomComponentsUITests;
+			sourceTree = "<group>";
+		};
+		018BE7022A51B74D0064F8B2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				018BE7032A51B75A0064F8B2 /* CustomTabBar */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		018BE7032A51B75A0064F8B2 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				018BE7062A51B7F20064F8B2 /* CustomTabBar1 */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		018BE7062A51B7F20064F8B2 /* CustomTabBar1 */ = {
+			isa = PBXGroup;
+			children = (
+				018BE7042A51B76B0064F8B2 /* CustomTabBar1.swift */,
+				018BE7072A51B8230064F8B2 /* CustomTabBar1View.swift */,
+				018BE7092A51B9090064F8B2 /* CustomTabBar1House.swift */,
+				018BE70B2A51B9270064F8B2 /* CustomTabBar1Message.swift */,
+				018BE70D2A51B9480064F8B2 /* CustomTabBar1Person.swift */,
+				018BE70F2A51B95D0064F8B2 /* CustomTabBar1Setting.swift */,
+				018BE7112A51B9E50064F8B2 /* CustomTabBar1Leaf.swift */,
+			);
+			path = CustomTabBar1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018BE70A2A51B9090064F8B2 /* CustomTabBar1House.swift in Sources */,
 				018BE6DB2A51B7400064F8B2 /* ContentView.swift in Sources */,
+				018BE7082A51B8230064F8B2 /* CustomTabBar1View.swift in Sources */,
+				018BE7102A51B95D0064F8B2 /* CustomTabBar1Setting.swift in Sources */,
+				018BE7052A51B76B0064F8B2 /* CustomTabBar1.swift in Sources */,
+				018BE70C2A51B9270064F8B2 /* CustomTabBar1Message.swift in Sources */,
+				018BE70E2A51B9480064F8B2 /* CustomTabBar1Person.swift in Sources */,
 				018BE6D92A51B7400064F8B2 /* SwiftuiCustomComponentsApp.swift in Sources */,
+				018BE7122A51B9E50064F8B2 /* CustomTabBar1Leaf.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

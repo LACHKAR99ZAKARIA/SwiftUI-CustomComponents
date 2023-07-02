@@ -13,7 +13,7 @@ struct CustomTabBar1Leaf: View {
     }
 }
 
-struct CustomTabBat1Leaf_Previews: PreviewProvider {
+struct CustomTabBar1Leaf_Previews: PreviewProvider {
     static var previews: some View {
         CustomTabBar1Leaf()
     }
