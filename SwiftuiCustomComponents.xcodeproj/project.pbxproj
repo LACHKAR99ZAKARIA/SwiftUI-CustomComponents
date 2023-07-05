@@ -12,6 +12,8 @@
 		0183C4472A55654000C9BF89 /* TabBarView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183C4462A55654000C9BF89 /* TabBarView3.swift */; };
 		0183C44A2A556BF000C9BF89 /* CustomTabBar4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183C4492A556BF000C9BF89 /* CustomTabBar4.swift */; };
 		0183C44C2A556BF800C9BF89 /* TabBarView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183C44B2A556BF800C9BF89 /* TabBarView4.swift */; };
+		0183C44F2A557BE400C9BF89 /* CustomTabBar5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183C44E2A557BE400C9BF89 /* CustomTabBar5.swift */; };
+		0183C4512A557C1100C9BF89 /* TabBarView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183C4502A557C1100C9BF89 /* TabBarView5.swift */; };
 		018BE6D92A51B7400064F8B2 /* SwiftuiCustomComponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BE6D82A51B7400064F8B2 /* SwiftuiCustomComponentsApp.swift */; };
 		018BE6DB2A51B7400064F8B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BE6DA2A51B7400064F8B2 /* ContentView.swift */; };
 		018BE6DD2A51B7420064F8B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018BE6DC2A51B7420064F8B2 /* Assets.xcassets */; };
@@ -51,6 +53,8 @@
 		0183C4462A55654000C9BF89 /* TabBarView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView3.swift; sourceTree = "<group>"; };
 		0183C4492A556BF000C9BF89 /* CustomTabBar4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar4.swift; sourceTree = "<group>"; };
 		0183C44B2A556BF800C9BF89 /* TabBarView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView4.swift; sourceTree = "<group>"; };
+		0183C44E2A557BE400C9BF89 /* CustomTabBar5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar5.swift; sourceTree = "<group>"; };
+		0183C4502A557C1100C9BF89 /* TabBarView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView5.swift; sourceTree = "<group>"; };
 		018BE6D52A51B7400064F8B2 /* SwiftuiCustomComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftuiCustomComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		018BE6D82A51B7400064F8B2 /* SwiftuiCustomComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftuiCustomComponentsApp.swift; sourceTree = "<group>"; };
 		018BE6DA2A51B7400064F8B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,6 +125,15 @@
 			path = CustomTabBar4;
 			sourceTree = "<group>";
 		};
+		0183C44D2A557B5900C9BF89 /* CustomTabBar5 */ = {
+			isa = PBXGroup;
+			children = (
+				0183C44E2A557BE400C9BF89 /* CustomTabBar5.swift */,
+				0183C4502A557C1100C9BF89 /* TabBarView5.swift */,
+			);
+			path = CustomTabBar5;
+			sourceTree = "<group>";
+		};
 		018BE6CC2A51B7400064F8B2 = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +196,7 @@
 			children = (
 				018BE7032A51B75A0064F8B2 /* CustomTabBar */,
 				0183C4482A556BDC00C9BF89 /* CustomTabBar4 */,
+				0183C44D2A557B5900C9BF89 /* CustomTabBar5 */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -349,12 +363,14 @@
 				018BE7052A51B76B0064F8B2 /* CustomTabBar1.swift in Sources */,
 				0183C4422A5564C800C9BF89 /* CustomTabBar2.swift in Sources */,
 				0183C44C2A556BF800C9BF89 /* TabBarView4.swift in Sources */,
+				0183C4512A557C1100C9BF89 /* TabBarView5.swift in Sources */,
 				0183C4452A55650300C9BF89 /* CustomTabBar3.swift in Sources */,
 				018BE70C2A51B9270064F8B2 /* CustomTabBar1Message.swift in Sources */,
 				018BE70E2A51B9480064F8B2 /* CustomTabBar1Person.swift in Sources */,
 				018BE6D92A51B7400064F8B2 /* SwiftuiCustomComponentsApp.swift in Sources */,
 				0183C4472A55654000C9BF89 /* TabBarView3.swift in Sources */,
 				018BE7122A51B9E50064F8B2 /* CustomTabBar1Leaf.swift in Sources */,
+				0183C44F2A557BE400C9BF89 /* CustomTabBar5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
