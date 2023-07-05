@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum Tab: String, CaseIterable {
+enum Tab1: String, CaseIterable {
     case house
     case message
     case person
@@ -16,7 +16,7 @@ enum Tab: String, CaseIterable {
 }
 
 struct CustomTabBar1: View {
-    @Binding var selectedTab: Tab
+    @Binding var selectedTab: Tab1
     private var fillImage: String {
         selectedTab.rawValue + ".fill"
     }
@@ -39,7 +39,7 @@ struct CustomTabBar1: View {
     var body: some View {
         VStack {
             HStack {
-                ForEach(Tab.allCases, id: \.rawValue) { tab in
+                ForEach(Tab1.allCases, id: \.rawValue) { tab in
                     Spacer()
                     Image(systemName: selectedTab == tab ? fillImage : tab.rawValue)
                         .frame(width: 60, height: 60)

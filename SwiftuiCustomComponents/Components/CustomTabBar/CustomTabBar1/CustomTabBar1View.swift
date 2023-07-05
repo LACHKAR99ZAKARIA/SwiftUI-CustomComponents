@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomTabBar1View: View {
-    @State private var tabSelected: Tab = .house
+    @State private var tabSelected: Tab1 = .house
     
     private var tabView: AnyView {
         switch self.tabSelected {
@@ -32,7 +32,7 @@ struct CustomTabBar1View: View {
         ZStack {
             VStack {
                 TabView(selection: $tabSelected) {
-                    ForEach(Tab.allCases, id: \.rawValue) { tab in
+                    ForEach(Tab1.allCases, id: \.rawValue) { tab in
                         HStack {
                             self.tabView
                                 .animation(nil, value: tabSelected)
