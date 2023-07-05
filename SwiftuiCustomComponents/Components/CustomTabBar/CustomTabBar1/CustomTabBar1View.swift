@@ -35,7 +35,6 @@ struct CustomTabBar1View: View {
                     ForEach(Tab.allCases, id: \.rawValue) { tab in
                         HStack {
                             self.tabView
-                                
                                 .animation(nil, value: tabSelected)
                         }
                         .tag(tab)
