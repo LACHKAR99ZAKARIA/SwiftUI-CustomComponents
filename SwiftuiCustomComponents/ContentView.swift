@@ -36,12 +36,21 @@ struct ContentView: View {
                     }
                     Section("Expanding View") {
                         NavigationLink(destination: ExpandingView1()) {
-                            Text("Expanding View")
+                            Text("Expanding View 1")
+                        }
+                    }
+                    Section("Popups View"){
+                        NavigationLink(destination: PopupView1()) {
+                            Text("Popup View 1")
+                        }
+                        NavigationLink(destination: AlertVIew1()) {
+                            Text("Alert Views 1")
                         }
                     }
                 }
             }
         }
+        .colorScheme(.light)
     }
 }
 

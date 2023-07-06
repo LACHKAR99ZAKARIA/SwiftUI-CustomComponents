@@ -17,6 +17,8 @@
 		0183C45C2A559A2100C9BF89 /* ExpandingView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183C45B2A559A2100C9BF89 /* ExpandingView1.swift */; };
 		0183C45E2A559A6000C9BF89 /* ExpandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183C45D2A559A6000C9BF89 /* ExpandingView.swift */; };
 		0183C4622A559B3200C9BF89 /* Loader1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183C4612A559B3200C9BF89 /* Loader1.swift */; };
+		0183C46A2A55ABA200C9BF89 /* PopupView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183C4692A55ABA200C9BF89 /* PopupView1.swift */; };
+		0183C46D2A55AF5000C9BF89 /* AlertVIew1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183C46C2A55AF5000C9BF89 /* AlertVIew1.swift */; };
 		018BE6D92A51B7400064F8B2 /* SwiftuiCustomComponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BE6D82A51B7400064F8B2 /* SwiftuiCustomComponentsApp.swift */; };
 		018BE6DB2A51B7400064F8B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BE6DA2A51B7400064F8B2 /* ContentView.swift */; };
 		018BE6DD2A51B7420064F8B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018BE6DC2A51B7420064F8B2 /* Assets.xcassets */; };
@@ -61,6 +63,8 @@
 		0183C45B2A559A2100C9BF89 /* ExpandingView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingView1.swift; sourceTree = "<group>"; };
 		0183C45D2A559A6000C9BF89 /* ExpandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingView.swift; sourceTree = "<group>"; };
 		0183C4612A559B3200C9BF89 /* Loader1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader1.swift; sourceTree = "<group>"; };
+		0183C4692A55ABA200C9BF89 /* PopupView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView1.swift; sourceTree = "<group>"; };
+		0183C46C2A55AF5000C9BF89 /* AlertVIew1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVIew1.swift; sourceTree = "<group>"; };
 		018BE6D52A51B7400064F8B2 /* SwiftuiCustomComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftuiCustomComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		018BE6D82A51B7400064F8B2 /* SwiftuiCustomComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftuiCustomComponentsApp.swift; sourceTree = "<group>"; };
 		018BE6DA2A51B7400064F8B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -173,6 +177,31 @@
 			path = ExpandingView1;
 			sourceTree = "<group>";
 		};
+		0183C4672A55AB9000C9BF89 /* PopupView */ = {
+			isa = PBXGroup;
+			children = (
+				0183C46B2A55AF4600C9BF89 /* AlertVIew1 */,
+				0183C4682A55AB9B00C9BF89 /* PopupView1 */,
+			);
+			path = PopupView;
+			sourceTree = "<group>";
+		};
+		0183C4682A55AB9B00C9BF89 /* PopupView1 */ = {
+			isa = PBXGroup;
+			children = (
+				0183C4692A55ABA200C9BF89 /* PopupView1.swift */,
+			);
+			path = PopupView1;
+			sourceTree = "<group>";
+		};
+		0183C46B2A55AF4600C9BF89 /* AlertVIew1 */ = {
+			isa = PBXGroup;
+			children = (
+				0183C46C2A55AF5000C9BF89 /* AlertVIew1.swift */,
+			);
+			path = AlertVIew1;
+			sourceTree = "<group>";
+		};
 		018BE6CC2A51B7400064F8B2 = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +265,7 @@
 				0183C45F2A559AE700C9BF89 /* ExpandingView */,
 				018BE7032A51B75A0064F8B2 /* CustomTabBar */,
 				0183C4592A55988C00C9BF89 /* Loader */,
+				0183C4672A55AB9000C9BF89 /* PopupView */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -405,6 +435,7 @@
 				018BE7052A51B76B0064F8B2 /* CustomTabBar1.swift in Sources */,
 				0183C4422A5564C800C9BF89 /* CustomTabBar2.swift in Sources */,
 				0183C44C2A556BF800C9BF89 /* TabBarView4.swift in Sources */,
+				0183C46D2A55AF5000C9BF89 /* AlertVIew1.swift in Sources */,
 				0183C4512A557C1100C9BF89 /* TabBarView5.swift in Sources */,
 				0183C45C2A559A2100C9BF89 /* ExpandingView1.swift in Sources */,
 				0183C4452A55650300C9BF89 /* CustomTabBar3.swift in Sources */,
@@ -412,6 +443,7 @@
 				018BE70E2A51B9480064F8B2 /* CustomTabBar1Person.swift in Sources */,
 				018BE6D92A51B7400064F8B2 /* SwiftuiCustomComponentsApp.swift in Sources */,
 				0183C4472A55654000C9BF89 /* TabBarView3.swift in Sources */,
+				0183C46A2A55ABA200C9BF89 /* PopupView1.swift in Sources */,
 				018BE7122A51B9E50064F8B2 /* CustomTabBar1Leaf.swift in Sources */,
 				0183C44F2A557BE400C9BF89 /* CustomTabBar5.swift in Sources */,
 				0183C45E2A559A6000C9BF89 /* ExpandingView.swift in Sources */,
