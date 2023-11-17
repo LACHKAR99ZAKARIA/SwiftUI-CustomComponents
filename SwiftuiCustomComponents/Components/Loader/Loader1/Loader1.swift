@@ -37,7 +37,7 @@ struct Loader1: View {
                     .stroke(style: StrokeStyle(lineWidth: 15, lineCap: .round))
                     .fill(circleRoundGradient)
                     .rotationEffect(self.rotationDegree)
-            }.frame(width: 200, height: 200)
+            }.frame(width: 50, height: 50)
             .onAppear() {
                 self.animateLoader()
                 Timer.scheduledTimer(withTimeInterval: self.trackerRotation * self.animationDuration + (self.animationDuration), repeats: true) { (mainTimer) in

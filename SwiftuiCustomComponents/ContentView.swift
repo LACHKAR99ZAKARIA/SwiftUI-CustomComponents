@@ -47,6 +47,34 @@ struct ContentView: View {
                             Text("Alert Views 1")
                         }
                     }
+                    Section("List View with Loader"){
+                        NavigationLink(destination: ListView1()) {
+                            Text("List Views 1")
+                        }
+                    }
+                    Section("Animation Exemples"){
+                        NavigationLink(destination: TextFIeld(textLabel: "")) {
+                            Text("Text Flields Exemples")
+                        }
+                        NavigationLink(destination: ButtonsAnimation()) {
+                            Text("Button Animation")
+                        }
+                    }
+                    Section("Rive exemples"){
+                        Section("Loader") {
+                            NavigationLink(destination: TextFIeld(textLabel: "")) {
+                                Text("Rive Loader 1")
+                            }
+                        }
+                    }
+                    Section("Video Player"){
+                        NavigationLink(destination: VideoPlayer1()) {
+                            Text("Video Player 1")
+                        }
+                        NavigationLink(destination: YoutubeVideoPlayer1()) {
+                            Text("Youtube Video Player 1")
+                        }
+                    }
                 }
             }
         }
